@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    
+
+
+
+    <script>
+
+        function myfun1(){
+
+            var a=parseInt(document.getElementById('number1').value);
+
+            var b=parseInt(document.getElementById('number2').value);
+
+           document.getElementById('result').innerHTML=(a+" add by "+b+ " Is "+(a+B));  
+
+             
+
+
+
+
+
+        }
+
+        function myfun2(){
+
+            var a=document.getElementById('number1').value
+
+            var b=document.getElementById('number2').value
+
+            document.getElementById('result').innerHTML=(a+" subtract by "+b+" Is "+(a-b));    
+
+        }
+
+        function myfun3(){
+
+            var a=document.getElementById('number1').value
+
+            var b=document.getElementById('number2').value
+
+            document.getElementById('result').innerHTML=(a+" multiply by "+b+ " Is "+a*b);    
+
+        }
+
+        function myfun4(){
+
+            var a=document.getElementById('number1').value
+
+            var b=document.getElementById('number2').value
+
+            document.getElementById('result').innerHTML=(a+" divided by "+b+" Is "+a/b);    
+
+        }
+
+
+
+ function myfun5(){
+
+            var a=document.getElementById('number1').value
+
+            var b=document.getElementById('number2').value
+
+            document.getElementById('result').innerHTML=( "Persentag "+a+" out of " +b+" is"  + a*100/b +"%");    
+
+        }
+        
+        function myfun6(){
+
+            var a=document.getElementById('number1').value
+
+            var b=document.getElementById('number2').value
+
+            document.getElementById('result').innerHTML=(a+" percent of "+b+" is "+a*b/100);    
+
+        }
+
+
+
+    </script>
+
+<style>
+
+body{
+
+  background-color: black;
+
+
+
+}
+
+.con{
+
+background-image: url("1224636.jpg");
+    
+
+    background-repeat: no-repeat;
+
+    color: aliceblue;
+
+    border: 2px solid white;
+
+    margin: auto;
+
+    padding: auto; 
+
+    width: 980px;
+
+    
+
+    border-radius: 10px;
+
+   
+
+}
+
+.a input{
+   
+   text-align: center;
+
+    display: block;
+
+    Border-radius :10px;
+
+   padding: 6px;
+
+   width : 650px ;
+
+    margin:auto;
+    Font-size : 25px ;
+
+}
+
+.b input{
+    
+    border: white;
+    text-align: center;
+
+    display: block;
+    background-color: black;
+
+    color: white ;
+
+    padding: 6px;
+
+   width: 420px;
+   Font-size : 25px ;
+    margin:5px auto;
+    Border-radius :20px;
+    }
+
+h1{
+    background-color:lightpink;
+    text-align: center;
+    display:block;
+
+    border-radius: 22px;
+
+    
+
+}  
+
+h4{
+
+    color: aliceblue;
+
+    background-color: blueviolet;
+    Border-radius :10px;
+    
+
+}  
+
+
+
+
+
+</style>
+
+    
+
+</head>
+
+<body >
+
+
+
+<div class="con">
+
+<h4><marquee behavior="" direction="left">Plz Enter 1st and 2nd Number and get Answer. ______________________ Plz Enter 1st and 2nd Number and get Answer.________________Plz Enter 1st and 2nd Number and get Answer. ______________________ Plz Enter 1st and 2nd Number and get Answer.</marquee></h4>
+
+<h1 >MY CALCULATOR</h1>
+
+<div class="input">
+
+    <h2 align="center">Enter 1st Number </h2>
+
+    <div class="a">
+
+    <input type="number" value="" id="number1" placeholder="Enter your Number  obtain Mark "><br><br>
+
+    </div>
+
+    <h2 align="center"> Enter 2nd Number </h2>
+
+    <div class="a">
+
+    <input type="number" value="sum" id="number2" placeholder="Enter your Number or Total Mark's "><br><br>
+
+    </div>
+
+    <div class="b">
+
+    <input type="submit" value="sum" onclick="return myfun1()">
+
+    <input type="submit" value="subtract" onclick="return myfun2()">
+
+    <input type="submit" value="Mutiply" onclick="return myfun3()">
+
+    <input type="submit" value="Divide" onclick="return myfun4()">
+     <input type="submit" value="Persentag " onclick="return myfun5()">
+      <input type="submit" value="Persent " onclick="return myfun6()"><br><br>
+
+    </div>
+
+    <h3 align="center">The result is:</h3><br><br>
+
+    <h3 align="center"><span id="result"></span></h3>
+
+    <h4><marquee behavior="" direction="right">Plz Enter 1st and 2nd Number and get Answer. ______________________ Plz Enter 1st and 2nd Number and get Answer.________________Plz Enter 1st and 2nd Number and get Answer. ______________________ Plz Enter 1st and 2nd Number and get Answer.</marquee></h4>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
